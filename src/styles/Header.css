@@ -1,0 +1,72 @@
+.logo {
+  width: 5rem;
+  width: 64px;
+  cursor: pointer;
+}
+
+.logo-site {
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.logo-profile {
+  border-radius: 1rem;
+  width: 64px;
+}
+
+.usertag {
+  text-decoration: none;
+  font-size: 19px;
+  color: #b4aea4;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.div-profile {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #181a1b;
+  height: 65px;
+  padding-right: 15px;
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.fixed-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.list-btn-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-header {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  margin: 15px 45px;
+  font-size: 19px;
+  color: #b4aea4;
+  font-weight: 800;
+}
+.btn-header:hover{
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+.container-searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

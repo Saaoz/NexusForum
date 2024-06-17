@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../utils/fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../utils/fonts/Lato/Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("../utils/fonts/Bebas/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../utils/img/fondNexus.png);
+  /* background-image: url(../utils/img/cool-bg.png); */
+  z-index: 1;
+  margin: 0;
+  text-shadow: 2px 2px 4px #000000;
+  color: #d8d4cf;
+  font-family: 'Lato'
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+  font-weight: 800;
+  text-shadow: 2px 2px 4px #000000;
+  color: #d8d4cf;
+}
+
+h2 {
+  font-family: 'BebasNeue';
+  font-size: 36px;
+  margin: 0;
+}
+
+body html {
+  height: 100%;
+  margin: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #d8d4cf;
+  font-weight: 800;
+}

@@ -1,0 +1,68 @@
+.input-searchbar{
+    width: 600px;
+    height: 35px;
+    border: 2px solid #181A1B; 
+    background-color: #131516;
+    color: #d8d4cf;
+    outline-offset: 2.5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.form-searchbar{
+    position: relative;
+}
+
+
+.input-searchbar:focus{
+    outline: 3.5px solid #B4AEA4;
+}
+
+.input-searchbar,.button-searchbar { 
+    padding: 8px 8px 8px 8px;
+    border-radius: 5px;
+}
+
+.button-searchbar{
+    background: none;
+    border: 0;
+    height: 55px;
+    width: 75px ;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.button-searchbar::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aquamarine;
+    transform: translateX(100%);
+    transition: transform 1.5s;
+    z-index: -1;
+}
+
+.button-searchbar span.button-text {
+    position: relative;
+    z-index: 2;
+}
+
+.form-searchbar:focus-within .button-searchbar{
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s linear, transform 0.5s;
+}
+
+.form-searchbar:focus-within .button-searchbar::after{
+    transform: translateX(0%);
+}

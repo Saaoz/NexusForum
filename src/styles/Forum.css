@@ -1,0 +1,171 @@
+.container{
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+
+.bg-container{
+  background-color: #131516;
+  z-index: 1;
+}
+  
+.main{
+  display: flex;
+  flex-direction: column;
+  color: #d8d4cf;
+  margin-top: 150px;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5%;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.title-container{
+  background-color: #154E7A;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+}
+
+.title-container div {
+  padding: 12px 12px 12px 72px;
+}
+
+.title-container, .annonce-container, .t-container{
+  padding-left: 25px;
+}
+
+.annonce-container{
+  padding-bottom: 25px;
+}
+
+.t-div{
+  align-items: center;
+}
+
+.t-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #154E7A;
+  height: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+  white-space: nowrap;
+
+}
+
+.sou-sec-dif th:nth-child(1){
+  width: 132px;
+}
+
+.t-child-div{
+  display: flex;
+  width: 71%;
+}
+
+.f-category{
+  cursor: pointer;
+}
+
+.f-category:hover{
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+.btn-toggle-collapse{
+  width: 65px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+
+.t-child-div th:nth-child(1),
+.t-child-div th:nth-child(2){
+  flex-grow: 1;
+}
+
+.t-child-div th:nth-child(3){
+  flex-grow: 1;
+}
+
+.tbody-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tr-content{
+  display: flex;
+  align-items: center; 
+  width: 100%;
+}
+
+.tr-content td:nth-child(1){
+  padding-right: 9.8%;
+}
+
+.tr-content td:nth-child(2){
+  padding-right: 2%;
+  max-width: 290px;
+}
+
+.tr-content td:nth-child(1),
+.tr-content td:nth-child(2){
+  flex-grow: 1;
+}
+
+.tr-content td:nth-child(3){
+  flex-grow: 1;
+}
+
+.tr-content td {
+  max-width: 340px;
+}
+
+.tr-content td h3, .tr-content td .p-data {
+  padding-left: 20px;
+}
+
+.p-data{
+  font-size:12px;
+}
+
+.split{
+  width: 100%;
+}
+
+.title-fc{
+  display: flex;
+  font-size: 26px;
+  font-family: 'BebasNeue';
+}
+
+.btn-switch {
+  position: relative;
+  background: none;
+  border: none;
+  transition: color 0.5s ease;
+  font-size: 16px;
+  font-family: 'Lato';
+  font-weight: 800;
+  cursor: pointer;
+  color: #d8d4cf;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.btn-switch:hover{
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+.link-category{
+  cursor: pointer;
+  color: #ADD8E6;
+}
+
+.link-category:hover{
+  color: #0056b3;
+  transition: 350ms ease;
+}
+

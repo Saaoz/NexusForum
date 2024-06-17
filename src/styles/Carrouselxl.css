@@ -1,0 +1,17 @@
+.swiper {
+  height: 100%;
+  background: #131516;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #d8d4cf;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 30px;
+}

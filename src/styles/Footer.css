@@ -1,0 +1,53 @@
+footer{
+    height: 140px;
+    background-image: url(https://trianglify.io/p/w:1440!h:900!x:Greys!v:0.86!c:0.269!s:ngfb0r!f:il!i:0.50);
+    background-size: cover;
+    z-index:2;
+}
+
+footer p{
+    color: aliceblue;
+}
+
+.forum-footer {
+    background-color: #131516;
+    color: #d8d4cf;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-links,
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li,
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a,
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover,
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+}

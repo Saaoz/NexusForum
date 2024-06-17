@@ -1,0 +1,27 @@
+.main-c{
+    gap: 30px;
+}
+
+.category-title{
+    text-align: center;
+    padding: 12px 12px 12px 12px;
+    background-color: #154E7A;
+}
+
+.category-card{
+    background-color: #131516;
+
+}
+
+.title-section{
+    background-color: #154E7A;
+    display: flex;
+
+    padding: 12px 12px 12px 12px;
+}
+
+.body-section{
+    display: flex;
+
+    padding: 12px 12px 12px 12px;
+}
